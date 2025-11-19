@@ -1,1 +1,14 @@
+name: Testing-workflow
+
+on: push
+
+jobs:
+    test-jobs
+        runs-on: ubuntu-latest
+        steps:
+             - name: Hello KK Funda
+               run: echo "Hello KK-Funda"
+
+             - name: Display the date
+               run:  date  
 
