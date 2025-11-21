@@ -19,4 +19,5 @@ jobs:
         run: ls -l
 
       - name: Execute shell script
-        run: ./uptime.sh
+        run: chmod +x .github/workflows/uptime.sh
+
