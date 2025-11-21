@@ -19,5 +19,8 @@ jobs:
         run: ls -l
 
       - name: Execute shell script
-        run: chmod +x .github/workflows/uptime.sh
+        run: |
+          chmod +x .github/workflows/uptime.sh
+          ./.github/workflows/uptime.sh
+O
 
