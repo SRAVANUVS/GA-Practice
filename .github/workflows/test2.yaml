@@ -15,7 +15,7 @@ jobs:
         run: cat demo.txt
 
       - name: List directory
-        run: ls -lrth
+        run: ls -l
 
       - name: Execute shell script
         run: ./uptime.sh
